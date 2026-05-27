@@ -153,7 +153,6 @@ function imageOptions(names) {
 function slugify(value) {
   return normalizeText(value).replace(/\s+/g, "-");
 }
-
 const state = {
   currentLevel: 0,
   activeLevels: [],
