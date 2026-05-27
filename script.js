@@ -134,11 +134,11 @@ const levelBank = [
     errorMessage: "Intenta escribir una oración completa sobre la imagen",
     reinforcements: ["producción textual", "planificación escrita", "coherencia", "ortografía funcional"],
     variants: [
-      { image: "img/nino-futbol.svg", expectedExample: "El niño juega fútbol", groups: [["nino", "niño", "chico"], ["juega", "jugando", "patea"], ["futbol", "balon", "pelota"]] },
-      { image: "img/nina-lee.svg", expectedExample: "La niña lee un cuento", groups: [["nina", "niña"], ["lee", "leyendo"], ["cuento", "libro"]] },
-      { image: "img/perro-corre.svg", expectedExample: "El perro corre rápido", groups: [["perro"], ["corre", "corriendo"], ["rapido", "rápido", "parque"]] },
-      { image: "img/familia-sopa.svg", expectedExample: "La familia come sopa", groups: [["familia", "mama", "mamá", "papa", "papá"], ["come", "comen", "toma", "toman"], ["sopa", "mesa"]] },
-      { image: "img/ninos-cantan.svg", expectedExample: "Los niños cantan en clase", groups: [["ninos", "niños"], ["cantan", "cantando"], ["clase", "salon", "salón"]] }
+      { image: "nino-futbol.svg", expectedExample: "El niño juega fútbol", groups: [["nino", "niño", "chico"], ["juega", "jugando", "patea"], ["futbol", "balon", "pelota"]] },
+      { image: "nina-lee.svg", expectedExample: "La niña lee un cuento", groups: [["nina", "niña"], ["lee", "leyendo"], ["cuento", "libro"]] },
+      { image: "perro-corre.svg", expectedExample: "El perro corre rápido", groups: [["perro"], ["corre", "corriendo"], ["rapido", "rápido", "parque"]] },
+      { image: "familia-sopa.svg", expectedExample: "La familia come sopa", groups: [["familia", "mama", "mamá", "papa", "papá"], ["come", "comen", "toma", "toman"], ["sopa", "mesa"]] },
+      { image: "ninos-cantan.svg", expectedExample: "Los niños cantan en clase", groups: [["ninos", "niños"], ["cantan", "cantando"], ["clase", "salon", "salón"]] }
     ]
   }
 ];
